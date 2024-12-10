@@ -1,0 +1,62 @@
+<style>
+  /* Page background */
+  body {
+    background-color: #c8a165; /* Yellowish-brown background for the webpage */
+    font-family: Arial, sans-serif; /* Clean font for text */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Center table vertically and horizontally */
+  }
+
+  /* Container to limit table width */
+  .table-container {
+    width: 90%;
+    max-width: 1200px;
+    background: #ffffff; /* White background for table container */
+    border-radius: 10px; /* Smooth corners for the container */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Soft shadow for elegance */
+    overflow: hidden; /* Ensure no overflow from the table */
+  }
+
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Clean table borders */
+  }
+
+  /* Table header styling */
+  thead {
+    background-color: #333333; /* Dark header background */
+    color: #ffffff; /* White text for headers */
+  }
+
+  th {
+    padding: 12px 15px; /* Header cell padding */
+    text-transform: uppercase; /* Uppercase header text */
+    font-size: 14px; /* Slightly smaller text for headers */
+    letter-spacing: 1px; /* Add some spacing between letters */
+  }
+
+  /* Table body styling */
+  tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Light grey background for odd rows */
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #ffffff; /* White background for even rows */
+  }
+
+  tbody td {
+    padding: 12px 15px; /* Padding for table cells */
+    font-size: 14px; /* Adjust text size */
+    border-bottom: 1px solid #ddd; /* Subtle row separator */
+  }
+
+  tbody tr:hover {
+    background-color: #f1c40f; /* Highlight row on hover (yellowish tone) */
+    cursor: pointer; /* Add pointer cursor on hover */
+  }
+</style>
